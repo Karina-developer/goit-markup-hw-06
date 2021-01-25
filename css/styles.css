@@ -650,6 +650,7 @@ img {
 
 .container-footer {
   display: flex;
+  justify-content: space-between;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -723,14 +724,12 @@ img {
 }
 
 .footer-list-first-side {
-  display: flex;
   flex-direction: column;
   width: 270px;
 }
 
 .footer-list-second-side {
   width: 270px;
-  padding-left: 30px;
 }
 
 .footer-title {
@@ -787,8 +786,7 @@ img {
 }
 
 .footer-list-third-side {
-  width: calc(50% - 15px);
-  padding-left: 93px;
+  width: 570px;
 }
 
 .footer-form {
@@ -807,7 +805,7 @@ img {
 }
 
 .footer-form-input {
-  width: 358px;
+  width: 370px;
   height: 50px;
   padding-left: 16px;
   color: rgba(255, 255, 255, 0.6);
@@ -827,7 +825,7 @@ img {
 .footer-form-btn {
   display: flex;
   align-items: center;
-  width: auto;
+  width: 200px;
   height: 50px;
   margin-left: 12px;
   padding-left: 28px;
