@@ -554,6 +554,7 @@ img {
 
 .social-list {
   display: flex;
+  justify-content: space-between;
 }
 
 .social-list-link {
@@ -578,11 +579,6 @@ img {
 .social-list-link:focus .social-list-icon {
   fill: #ffffff;
   outline: none;
-}
-
-.close-modal:hover .button-icon,
-.close-modal:focus .button-icon {
-  fill: var(--accent-color);
 }
 
 .team-list-content-wrapper {
